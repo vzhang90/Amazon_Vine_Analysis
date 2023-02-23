@@ -28,7 +28,7 @@ Using **Pandas** as seen in [Vine_Review_Analysis.ipynb](https://github.com/vzha
 3. The data is filtered into a DataFrame where reviews were written as part of the Vine program (paid), `vine == 'Y'`
 4. Repeat Step 3, but this time retrieve all the rows where there isn't a Vine review (unpaid), `vine == 'N'`
 
-This analysis will help ***Determine the Bias of Vine Reviews*** by illustrating the ***total number of reviews, the number of 5-star reviews, and the percentage of 5-star reviews for the two types of review (paid vs unpaid)***
+This analysis will help ***Determine the Bias of Vine Reviews*** by illustrating the ***total number of reviews, the number of 5-star reviews,*** and ***the percentage of 5-star reviews for the two types of review (paid vs unpaid)***
 
 
 ## Results
