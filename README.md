@@ -8,6 +8,7 @@ To perfrom **ETL** on these Amazon Product Reviews, a new database must first be
   - ***Inbound rules*** edited to add type `PostgresSQL` with the source set to `Anywhere-IPv4` 
   - ***Outbound rules*** check that the Custom Destination has `0.0.0.0/0` 
     
+---      
 Then to create a new database in this ***Amazon RDS server*** through **pgAdmin**, the server must be added accordingly:
   - Port Number 5432
   - Host name/address in connection settings is the URL endpoint of the previously created AWS RDS instance   
