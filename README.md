@@ -25,7 +25,7 @@ From **pgAdmin**, the `vine_table` is exported as [vine_table.csv](https://raw.g
 Using **Pandas** as seen in [Vine_Review_Analysis.ipynb](https://github.com/vzhang90/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb), the [vine_table.csv file](https://raw.githubusercontent.com/vzhang90/Amazon_Vine_Analysis/main/vine_table.csv) is read into DataFrame to perform analysis ***to determine bias of Vine reviews.***  
 
 ## Results
-> Vine Table DataFrame categorizing paid vs unpaid types of reviews
+> **Vine Table DataFrame categorizing paid vs unpaid types of reviews**
 > ![vine table bias](https://github.com/vzhang90/Amazon_Vine_Analysis/blob/main/Images/Vine_table_paid_vs_unpaid.png)  
 - There were in total: 261 Vine reviews & 24,040 non-Vine reviews 
 - Out of 261 total Vine reviews, 106 were 5 stars; while out of 24,040 non-Vine reviews, 10,899 were 5 stars
