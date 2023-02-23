@@ -5,15 +5,14 @@ The Amazon Vine program is a service that allows manufacturers and publishers to
 From the following [Amazon Review datasets](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt), the product reviews from the [US home entertainment dataset](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Home_Entertainment_v1_00.tsv.gz) was chosen to analyze.
 
 To perfrom **ETL** on these Amazon Product Reviews, a new database must first be created with **AWS RDS console** according to the following connection & security settings:
-    - Inbound rules edited to add type `PostgresSQL` with the source set to `Anywhere-IPv4` 
-    - Outbound rules check that the Custom Destination has `0.0.0.0/0` 
+  - ***Inbound rules*** edited to add type `PostgresSQL` with the source set to `Anywhere-IPv4` 
+  - ***Outbound rules*** check that the Custom Destination has `0.0.0.0/0` 
     
 Then to create a new database in this ***Amazon RDS server*** through **pgAdmin**, the server must be added accordingly:
-    - Port Number 5432
-    - Host name/address in connection settings is the URL endpoint of the previously created AWS RDS instance   
+  - Port Number 5432
+  - Host name/address in connection settings is the URL endpoint of the previously created AWS RDS instance   
 
-In **pgAdmin**, a new query was ran to create the following tables from this new database:
-    - `customers_table`      - `products_table`      - `review_id_table`      - `vine_table`
+In **pgAdmin**, a new query was ran to create the following tables from this new database: `customers_table`,  `products_table`,  `review_id_table`,  `vine_table`
 
 ---
 Using **Google Colab Notebook**, four DataFrames were created in [Amazon_Reviews_ETL.ipynb](https://github.com/vzhang90/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL.ipynb) through **PySpark**. Once generated through **PySpark**, the DataFrames must be uploaded into **pgAdmin** in a manner/syntax that must correspond to the tables in **pgAdmin**.  
