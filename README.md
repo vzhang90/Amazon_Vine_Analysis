@@ -2,7 +2,7 @@
 The Amazon Vine program is a service that allows manufacturers and publishers to receive reviews for their products. This project analyzes Amazon reviews written by members of the paid Amazon Vine Program to determine whether there is bias in Vine Reviews when paid vs unpaid.
 
 ## Results
-**Vine Table DataFrame categorizing paid vs unpaid types of reviews**
+***Vine Table DataFrame categorizing paid vs unpaid types of reviews***
 ![vine table bias](https://github.com/vzhang90/Amazon_Vine_Analysis/blob/main/Images/Vine_table_paid_vs_unpaid.png)  
 
 - 261 Vine reviews vs 24,040 non-Vine reviews
