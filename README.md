@@ -25,7 +25,7 @@ From **pgAdmin**, the `vine_table` is exported as [vine_table.csv](https://raw.g
 Using **Pandas** as seen in [Vine_Review_Analysis.ipynb](https://github.com/vzhang90/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb), the [vine_table.csv file](https://raw.githubusercontent.com/vzhang90/Amazon_Vine_Analysis/main/vine_table.csv) is read into DataFrame to perform analysis to discern if there is any bias towards reviews that were written as part of the Vine program:
 1. The data is filtered to create a DataFrame whoch retrieves all rows where the total_votes count is equal to or greater than 20 <sub>(to pick reviews that are more likely to be helpful and to avoid having division by zero errors later on)</sub>
 2. Additionally filtered to create a DataFrame where the percentage of helpful_votes is equal to or greater than 50% 
-3. Subsequently filtered into a DataFrame where reviews were written as part of the Vine program (paid), `vine == 'Y'`
+3. Subsequently filtered into DataFrame where reviews were written as part of the Vine program (paid), `vine == 'Y'`
 4. Repeat Step 3, but this time retrieve all the rows where there isn't a Vine review (unpaid), `vine == 'N'`
 
 > This analysis will help ***Determine the Bias of Vine Reviews*** by illustrating the *total number of reviews, the number of 5-star reviews, and the percentage of 5-star reviews* for the ***two types of reviews (paid vs unpaid)***
