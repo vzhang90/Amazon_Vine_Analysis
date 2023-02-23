@@ -9,4 +9,4 @@ The Amazon Vine program is a service that allows manufacturers and publishers to
 - 40.61% of Vine reviews were 5-star while 45.337% of non-Vine reviews were 5-star
 
 ## Summary 
-There does not seem to be positivity bias because the percentage of 5-star reviews was actually lower in paid Vine reviews vs unpaid non-Vine reviews.
+Because the overall percentage of 5-star reviews was proportionally lower in paid Vine reviews vs unpaid non-Vine reviews, there does not seem to be positivity bias. Further investigations could even look at other aspect of negativity bias by running same analysis on 1-star reviews.
