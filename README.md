@@ -22,7 +22,7 @@ From **pgAdmin**, the `vine_table` is exported as [vine_table.csv](https://raw.g
 
 ---
 
-Using **Pandas** as seen in [Vine_Review_Analysis.ipynb](https://github.com/vzhang90/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb), the [vine_table.csv file](https://raw.githubusercontent.com/vzhang90/Amazon_Vine_Analysis/main/vine_table.csv) is read into DataFrame to perform analysis ***to determine bias of Vine reviews.***  
+Using **Pandas** as seen in [Vine_Review_Analysis.ipynb](https://github.com/vzhang90/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb), the [vine_table.csv file](https://raw.githubusercontent.com/vzhang90/Amazon_Vine_Analysis/main/vine_table.csv) is read into DataFrame to perform analysis ***to Determine Bias of Vine Reviews.***  
 
 ## Results
 > **Vine Table DataFrame categorizing paid vs unpaid types of reviews**
