@@ -15,13 +15,12 @@ Then to create a new database in this ***Amazon RDS server*** through **pgAdmin*
 In **pgAdmin**, a new query was ran to create the following tables from this new database:
     - `customers_table`      - `products_table`      - `review_id_table`      - `vine_table`
 ---
-Using **Google Colab Notebook**, four DataFrames were created in [Amazon_Reviews_ETL.ipynb](https://github.com/vzhang90/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL.ipynb) through **PySpark**. Once generated through **PySpark**, the DataFrames must be uploaded into **pgAdmin** in a manner/syntax that must correspond to the tables in **pgAdmin**.
-
+Using **Google Colab Notebook**, four DataFrames were created in [Amazon_Reviews_ETL.ipynb](https://github.com/vzhang90/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL.ipynb) through **PySpark**. Once generated through **PySpark**, the DataFrames must be uploaded into **pgAdmin** in a manner/syntax that must correspond to the tables in **pgAdmin**.  
+  
 From **pgAdmin**, the `vine_table` is exported as [vine_table.csv](https://raw.githubusercontent.com/vzhang90/Amazon_Vine_Analysis/main/vine_table.csv).   
 ---
 
-Using **Pandas** in the [Vine_Review_Analysis.ipynb](https://github.com/vzhang90/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb), the [vine_table.csv file](https://raw.githubusercontent.com/vzhang90/Amazon_Vine_Analysis/main/vine_table.csv) is read into DataFrame to perform analysis ***to determine bias of Vine reviews.***
----
+Using **Pandas** in the [Vine_Review_Analysis.ipynb](https://github.com/vzhang90/Amazon_Vine_Analysis/blob/main/Vine_Review_Analysis.ipynb), the [vine_table.csv file](https://raw.githubusercontent.com/vzhang90/Amazon_Vine_Analysis/main/vine_table.csv) is read into DataFrame to perform analysis ***to determine bias of Vine reviews.***  
 
 ## Results
 > Vine Table DataFrame categorizing paid vs unpaid types of reviews
